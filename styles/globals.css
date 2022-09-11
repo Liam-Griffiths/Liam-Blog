@@ -33,3 +33,10 @@ code {
   justify-content: center;
   align-items: center;
 }
+.name-text {
+  justify-content: center;
+  align-items: center;
+}
+.name-text h1 {
+  margin-bottom: -1rem !important;
+}
