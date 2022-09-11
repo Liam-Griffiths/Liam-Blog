@@ -10,19 +10,19 @@ export default function Footer() {
                   <Spacer x={8} />
                   <Col>
                       <Text h6 size={15}>
-                          <a href="#">Email</a>
+                          <a href="mailto:liam@liam-griffiths.co.uk">Email</a>
                       </Text>
                   </Col>
                   <Spacer x={1} />
                   <Col>
                       <Text h6 size={15}>
-                          <a href="#">Github</a>
+                          <a href="https://github.com/liam-griffiths">Github</a>
                       </Text>
                   </Col>
                   <Spacer x={1} />
                   <Col>
                       <Text h6 size={15}>
-                          <a href="#">LinkedIn</a>
+                          <a href="https://www.linkedin.com/in/liam-g-829103100">LinkedIn</a>
                       </Text>
                   </Col>
                   <Spacer x={8} />

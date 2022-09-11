@@ -19,9 +19,9 @@ function Application({ Component, pageProps }) {
                       </Text>
                   </Navbar.Brand>
                   <Navbar.Content variant="underline">
-                      <Navbar.Link href="#">Home</Navbar.Link>
-                      <Navbar.Link href="#">Thoughts</Navbar.Link>
-                      <Navbar.Link href="#">Experience</Navbar.Link>
+                      <Navbar.Link href="/">Home</Navbar.Link>
+                      <Navbar.Link href="/blog">Thoughts</Navbar.Link>
+                      <Navbar.Link href="/experience">Experience</Navbar.Link>
                   </Navbar.Content>
               </Navbar>
               <div className="container">
