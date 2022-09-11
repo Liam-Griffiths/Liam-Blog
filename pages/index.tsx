@@ -40,7 +40,7 @@ export default function Home() {
                   <Spacer y={2} />
                   <Row justify="center" className="text-center">
 
-                          <Text p size={20} weight="light" className="bio-text">
+                          <Text size={20} weight="light" className="bio-text">
                               Hello! I'm a Senior Software Developer from
                               the UK. Builder of interesting serverless
                               applications. Lover of guitar and sci-fi.
