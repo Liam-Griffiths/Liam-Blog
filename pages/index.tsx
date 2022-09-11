@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Header from '/components/Header'
-import Footer from '/components/Footer'
+import Head from 'next/head';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import {Container, Card, Row, Text, Grid, Button} from "@nextui-org/react";
 
 export default function Home() {
