@@ -1,20 +1,10 @@
-import Head from 'next/head';
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import {Container, Card, Row, Text, Grid, Button} from "@nextui-org/react";
+import {Container, Card, Row, Text, Grid, Button, Spacer, Col} from "@nextui-org/react";
 
 export default function Home() {
   return (
-      <div className="container">
-          <Head>
-              <title>Next.js Starter!</title>
-              <link rel="icon" href="/favicon.ico" />
-          </Head>
-
-          <main>
               <Container>
-                  <Row>
-                      <Container className="name-text">
+                  <Row justify="center">
+                      <div className="name-text">
                           <Text
                               h1
                               size={60}
@@ -45,64 +35,18 @@ export default function Home() {
                           >
                               Developer
                           </Text>
-              </Container>
+              </div>
                   </Row>
-                  <Row>
-                      <Grid.Container gap={2}>
-                          <Grid sm={12} md={5}>
-                              <Card css={{ mw: "330px" }}>
-                                  <Card.Header>
-                                      <Text b>Card Title</Text>
-                                  </Card.Header>
-                                  <Card.Divider />
-                                  <Card.Body css={{ py: "$10" }}>
-                                      <Text>
-                                          Some quick example text to build on the card title and make up the
-                                          bulk of the card's content.
-                                      </Text>
-                                  </Card.Body>
-                                  <Card.Divider />
-                                  <Card.Footer>
-                                      <Row justify="flex-end">
-                                          <Button size="sm" light>
-                                              Cancel
-                                          </Button>
-                                          <Button size="sm">Agree</Button>
-                                      </Row>
-                                  </Card.Footer>
-                              </Card>
-                          </Grid>
-                          <Grid sm={12} md={5}>
-                              <Card css={{ mw: "330px" }}>
-                                  <Card.Header>
-                                      <Text b>Card Title</Text>
-                                  </Card.Header>
-                                  <Card.Divider />
-                                  <Card.Body css={{ py: "$10" }}>
-                                      <Text>
-                                          Some quick example text to build on the card title and make up the
-                                          bulk of the card's content.
-                                      </Text>
-                                  </Card.Body>
-                                  <Card.Divider />
-                                  <Card.Footer>
-                                      <Row justify="flex-end">
-                                          <Button size="sm" light>
-                                              Share
-                                          </Button>
-                                          <Button size="sm" color="secondary">
-                                              Learn more
-                                          </Button>
-                                      </Row>
-                                  </Card.Footer>
-                              </Card>
-                          </Grid>
-                      </Grid.Container>
-                  </Row>
-              </Container>
-          </main>
+                  <Spacer y={2} />
+                  <Row justify="center" className="text-center">
 
-          <Footer />
-      </div>
+                          <Text p size={20} weight="light" className="bio-text">
+                              Hello! I'm a Senior Software Developer from
+                              the UK. Builder of interesting serverless
+                              applications. Lover of guitar and sci-fi.
+                          </Text>
+
+                  </Row>
+              </Container>
   )
 }
