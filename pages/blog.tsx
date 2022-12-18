@@ -1,7 +1,41 @@
 import {Container, Card, Row, Text, Grid, Button, Spacer, Col} from "@nextui-org/react";
 
-export default function Home() {
+
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
+import Link from "next/link";
+
+export const getPosts = () => {
+    const files = fs.readdirSync(path.join("posts"));
+    const allPostsData = files.map((fileName) => {
+        const slug = fileName.replace(".mdx", "");
+        const fileContents = fs.readFileSync(
+            path.join(`posts/${slug}.mdx`),
+            "utf8"
+        );
+        const { data } = matter(fileContents);
+        return {
+            slug,
+            data,
+        };
+    });
+
+    return allPostsData;
+};
+
+export const getPost = (slug) => {
+    const fileContents = fs.readFileSync(path.join(`posts/${slug}.mdx`), "utf8");
+    const { data, content } = matter(fileContents);
+    return {
+        data,
+        content,
+    };
+};
+
+export default function Home({ posts }) {
   return (
+<>
               <Container>
                   <Row justify="center">
                       <div className="name-text">
@@ -17,56 +51,32 @@ export default function Home() {
                           </Text>
               </div>
                   </Row>
-                  <Spacer y={2} />
-                  <Row justify="center" className="text-center">
 
-                          <Text size={20} weight="light" className="bio-text">
-                              Hello! I'm a Senior Software Developer from
-                              the UK. Builder of interesting serverless
-                              applications. Lover of guitar and sci-fi.
-                          </Text>
-
-                  </Row>
-                  <Spacer y={2} />
-                  <Row justify="center" className="text-center">
+                  {posts.map((post) => (
+                      <div className="blog-link">
+                      <Link href={post.slug}>
+                      <Row justify="center" className="text-center">
 
                       <Text size={20} weight="light" className="bio-text">
-                          Hello! I'm a Senior Software Developer from
-                          the UK. Builder of interesting serverless
-                          applications. Lover of guitar and sci-fi.
+                        {post.data.title} - {post.data.date} <br/>
+                  {post.data.description}
                       </Text>
 
-                  </Row>
-                  <Spacer y={2} />
-                  <Row justify="center" className="text-center">
+                      </Row></Link>
+                          </div>
+                  ))}
 
-                      <Text size={20} weight="light" className="bio-text">
-                          Hello! I'm a Senior Software Developer from
-                          the UK. Builder of interesting serverless
-                          applications. Lover of guitar and sci-fi.
-                      </Text>
+              </Container></>
 
-                  </Row>
-                  <Spacer y={2} />
-                  <Row justify="center" className="text-center">
-
-                      <Text size={20} weight="light" className="bio-text">
-                          Hello! I'm a Senior Software Developer from
-                          the UK. Builder of interesting serverless
-                          applications. Lover of guitar and sci-fi.
-                      </Text>
-
-                  </Row>
-                  <Spacer y={2} />
-                  <Row justify="center" className="text-center">
-
-                      <Text size={20} weight="light" className="bio-text">
-                          Hello! I'm a Senior Software Developer from
-                          the UK. Builder of interesting serverless
-                          applications. Lover of guitar and sci-fi.
-                      </Text>
-
-                  </Row>
-              </Container>
   )
 }
+
+export const getStaticProps = () => {
+    const posts = getPosts();
+
+    return {
+        props: {
+            posts,
+        },
+    };
+};
