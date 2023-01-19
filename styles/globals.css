@@ -56,6 +56,14 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
 }
 
+.experience-text{
+  line-height: 1.4em;
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+}
+
 .article{
   background-color: #fafafa;
   width: 95vw;
@@ -82,4 +90,35 @@ code {
   border-radius: 5px;
   padding: 0.75rem;
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 40px 35px;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #22c0e8;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
 }

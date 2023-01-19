@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="255c5616-8d50-48c2-8451-661bb119953b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/[slug].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/post1.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/post2.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,11 @@
       <workItem from="1662853781410" duration="5733000" />
       <workItem from="1662924426443" duration="9910000" />
       <workItem from="1671069602500" duration="2094000" />
-      <workItem from="1671337715670" duration="8740000" />
+      <workItem from="1671337715670" duration="9339000" />
+      <workItem from="1672290875117" duration="1469000" />
+      <workItem from="1672370894931" duration="3459000" />
+      <workItem from="1673388362502" duration="598000" />
+      <workItem from="1674079244891" duration="11358000" />
     </task>
     <servers />
   </component>
@@ -103,7 +106,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/pages/blog.tsx</url>
           <line>57</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

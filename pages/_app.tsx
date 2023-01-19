@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Head from "next/head";
 
 function Application({ Component, pageProps }) {
+
   return (
       <NextUIProvider>
           <Box
@@ -25,12 +26,14 @@ function Application({ Component, pageProps }) {
                   </Navbar.Content>
               </Navbar>
               <div className="container">
+
                   <Head>
                       <title>Liam Griffiths</title>
                       <link rel="icon" href="/favicon.ico" />
                   </Head>
 
                   <main>
+
                 <Component {...pageProps} />
 
                   </main>
