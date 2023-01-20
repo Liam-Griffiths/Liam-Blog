@@ -1,6 +1,6 @@
 import {Container, Card, Row, Text, Grid, Button, Spacer, Col} from "@nextui-org/react";
 import { useCallback } from "react";
-import type { Container, Engine } from "tsparticles-engine";
+import type { Container as ParticleContainer, Engine } from "tsparticles-engine";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 
@@ -15,7 +15,7 @@ export default function Home() {
         await loadFull(engine);
     }, []);
 
-    const particlesLoaded = useCallback(async (container: Container | undefined) => {
+    const particlesLoaded = useCallback(async (container: ParticleContainer | undefined) => {
         await console.log(container);
     }, []);
 
