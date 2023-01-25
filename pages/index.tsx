@@ -7,11 +7,7 @@ import { loadFull } from "tsparticles";
 export default function Home() {
 
     const particlesInit = useCallback(async (engine: Engine) => {
-        console.log(engine);
-
-        // you can initialize the tsParticles instance (engine) here, adding custom shapes or presets
-        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-        // starting from v2 you can add only the features you need reducing the bundle size
+        // custom stuff here.
         await loadFull(engine);
     }, []);
 
@@ -38,9 +34,9 @@ export default function Home() {
                 direction: "bottom",
                 enable: true,
                 outMode: "bounce",
-                random: true,
-                speed: 2,
-                straight: true
+                random: false,
+                speed: 0.6,
+                straight: false
             },
             number: {
                 density: {
