@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="255c5616-8d50-48c2-8451-661bb119953b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/childhoods-end.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/posts/childhoods-end.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/demolished-man.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/posts/demolished-man.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/fall-of-moondust.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/posts/fall-of-moondust.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/project-hail-mary.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/posts/project-hail-mary.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/rendezvous-with-rama.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/posts/rendezvous-with-rama.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/roadkill.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/posts/roadkill.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/[slug].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/thoughts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
       <workItem from="1672370894931" duration="3459000" />
       <workItem from="1673388362502" duration="598000" />
       <workItem from="1674079244891" duration="15009000" />
-      <workItem from="1674689124228" duration="2055000" />
+      <workItem from="1674689124228" duration="5615000" />
     </task>
     <servers />
   </component>
@@ -105,7 +104,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/pages/blog.tsx</url>
+          <url>file://$PROJECT_DIR$/pages/thoughts.tsx</url>
           <line>57</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

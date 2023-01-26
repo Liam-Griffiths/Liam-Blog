@@ -21,7 +21,7 @@ function Application({ Component, pageProps }) {
                   </Navbar.Brand>
                   <Navbar.Content variant="underline">
                       <Navbar.Link href="/">Home</Navbar.Link>
-                      <Navbar.Link href="/blog">Thoughts</Navbar.Link>
+                      <Navbar.Link href="/thoughts">Thoughts</Navbar.Link>
                       <Navbar.Link href="/experience">Experience</Navbar.Link>
                   </Navbar.Content>
               </Navbar>

@@ -47,7 +47,7 @@ export default function Home({ posts }) {
                               }}
                               weight="bold"
                           >
-                              Blog
+                              Thoughts
                           </Text>
               </div>
                   </Row>
@@ -55,11 +55,14 @@ export default function Home({ posts }) {
                   {posts.map((post) => (
                       <div className="blog-link">
                       <Link href={post.slug}>
-                      <Row justify="center" className="text-center">
+                      <Row justify="center">
 
-                      <Text size={20} weight="light" className="bio-text">
-                        {post.data.title} - {post.data.date} <br/>
-                  {post.data.description}
+                      <Text size={30} weight="light" className="bio-text">
+                          <br/>
+                          <a>{post.data.title}</a> <br/>
+                          <small>{post.data.description}</small>
+                          <br/>
+                      <small>{post.data.date}</small>
                       </Text>
 
                       </Row></Link>

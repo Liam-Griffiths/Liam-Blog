@@ -2,7 +2,7 @@
 import { MDXRemote } from "next-mdx-remote";
 
 import { serialize } from "next-mdx-remote/serialize";
-import {getPost, getPosts} from "./blog";
+import {getPost, getPosts} from "./thoughts";
 import {Container, Row, Text} from "@nextui-org/react";
 
 
@@ -15,7 +15,7 @@ function Post({ data, content }) {
                 <div className="article-head-text">
                     <Text
                         h1
-                        size={60}
+                        size={50}
                         css={{
                             textGradient: "45deg, $blue600 -20%, $pink600 50%",
                         }}
@@ -26,14 +26,9 @@ function Post({ data, content }) {
                     <time className="text-gray-500 italic">{data.date}</time>
                 </div>
             </Row>
-
-            <Row>
-
-                <Text className="article-text">
-                    <MDXRemote {...content} />
-                </Text>
-
-            </Row>
+            </div>
+            <div className="article-text">
+                <MDXRemote {...content} />
             </div>
 
         </Container></>
