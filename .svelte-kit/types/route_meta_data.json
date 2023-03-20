@@ -1,0 +1,12 @@
+{
+	"/": [],
+	"/blog": [
+		"src/routes/blog/+page.ts"
+	],
+	"/experience": [
+		"src/routes/experience/+page.ts"
+	],
+	"/[slug]": [
+		"src/routes/[slug]/+page.ts"
+	]
+}
