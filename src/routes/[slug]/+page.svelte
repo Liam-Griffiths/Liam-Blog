@@ -38,8 +38,8 @@
                 <h1 class=" text-3xl font-extrabold leading-tight text-gray-900 lg:text-4xl ">{data.metadata.title}</h1>
                 <p class="mb-4 lg:mb-6 font-extrabold leading-tight text-gray-300 ">{data.metadata.category}</p>
             </header>
-            <div class="rounded shadow-xl bg-indigo-300 h-48 overflow-hidden relative">
-                <img class="w-full h-full absolute top-0 sm:-bottom-14 object-cover" src={'/images/' + (data.metadata.image ?? 'default.jpg')}>
+            <div class="rounded shadow-xl bg-indigo-300 h-56 overflow-hidden relative">
+                <img class="w-full absolute -bottom-14 object-cover" src={'/images/' + (data.metadata.image ?? 'default.jpg')}>
             </div>
 
             <hr class="my-2 border-gray-200 sm:mx-auto lg:my-4">
