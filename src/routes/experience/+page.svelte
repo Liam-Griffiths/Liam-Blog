@@ -37,19 +37,19 @@
 <div class="flex flex-row">
     <div class="relative basis-full flex flex-col justify-center min-h-[90vh] py-10">
             <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
-                <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-inverts">
+                <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
                     <header class="mb-4 lg:mb-6 not-format">
                         <address class="flex items-center mb-6 not-italic">
-                            <div class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
+                            <div class="inline-flex items-center mr-3 text-sm text-gray-900 ">
                                 <img class="mr-4 w-16 h-16 rounded-full" src="/images/me.jpg" alt="Liam Griffiths">
                                 <div>
-                                    <a href="#" rel="author" class="text-xl font-bold text-gray-900 dark:text-white">Liam Griffiths</a>
-                                    <p class="text-base font-light text-gray-500 dark:text-gray-400">Senior Software Engineer</p>
+                                    <a href="#" rel="author" class="text-xl font-bold text-gray-900">Liam Griffiths</a>
+                                    <p class="text-base font-light text-gray-500">Senior Software Engineer</p>
                                 </div>
                             </div>
                         </address>
                     </header>
-                    <hr class="my-3 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
+                    <hr class="my-3 border-gray-200 sm:mx-auto lg:my-8">
                     <div class="prose" >
                         <SvelteMarkdown {source} />
                     </div>

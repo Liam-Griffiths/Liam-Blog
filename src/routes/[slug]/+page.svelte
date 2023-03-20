@@ -21,27 +21,27 @@
     </div>
 </div>
 
-<main class="pt-4 pb-16 lg:pt-8 lg:pb-24 bg-white dark:bg-gray-900 min-h-[80vh]">
+<main class="pt-4 pb-16 lg:pt-8 lg:pb-24 bg-white  min-h-[80vh]">
     {#if !data.metadata.hide}
     <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
-        <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-inverts">
+        <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
             <header class="mb-4 lg:mb-6 not-format">
                 <address class="flex items-center mb-6 not-italic">
-                    <div class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
+                    <div class="inline-flex items-center mr-3 text-sm text-gray-900 ">
                         <img class="mr-4 w-16 h-16 rounded-full" src="/images/me.jpg" alt="Liam Griffiths">
                         <div>
-                            <a href="#" rel="author" class="text-xl font-bold text-gray-900 dark:text-white">Liam Griffiths</a>
-                            <p class="text-base font-light text-gray-500 dark:text-gray-400">Senior Software Engineer</p>
+                            <a href="#" rel="author" class="text-xl font-bold text-gray-900">Liam Griffiths</a>
+                            <p class="text-base font-light text-gray-500 ">Senior Software Engineer</p>
                         </div>
                     </div>
                 </address>
-                <h1 class=" text-3xl font-extrabold leading-tight text-gray-900 lg:text-4xl dark:text-white">{data.metadata.title}</h1>
-                <p class="mb-4 lg:mb-6 font-extrabold leading-tight text-gray-300 dark:text-white">{data.metadata.category}</p>
+                <h1 class=" text-3xl font-extrabold leading-tight text-gray-900 lg:text-4xl ">{data.metadata.title}</h1>
+                <p class="mb-4 lg:mb-6 font-extrabold leading-tight text-gray-300 ">{data.metadata.category}</p>
             </header>
             <div class="rounded shadow-xl bg-indigo-300 h-56 overflow-hidden relative">
                 <img class="w-full absolute -bottom-14 object-cover" src={'/images/' + (data.metadata.image ?? 'default.jpg')}>
             </div>
-            <hr class="my-2 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-4">
+            <hr class="my-2 border-gray-200 sm:mx-auto lg:my-4">
             <div class="prose mt-5" >
                 <SvelteMarkdown {source} />
             </div>
@@ -49,7 +49,7 @@
     </div>
     {:else }
         <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
-            <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-inverts text-center">
+            <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue text-center">
                 <h1 >Post Hidden</h1>
             </article>
         </div>
