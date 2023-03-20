@@ -39,8 +39,8 @@
                 {#if !post.meta.hide}
             <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md">
                 <div class="grid md:grid-cols-2 gap-6">
-                    <div class="bg-indigo-300 h-48 overflow-hidden flex justify-center rounded shadow-xl">
-                        <img class="w-full h-full object-cover" src={'/images/' + (post.meta.image ?? 'default.jpg')}>
+                    <div class="rounded shadow-xl bg-indigo-300 h-48 overflow-hidden relative">
+                        <img class="w-full h-full absolute top-0 sm:-bottom-14 object-cover" src={'/images/' + (post.meta.image ?? 'default.jpg')}>
                     </div>
                     <div>
                         <div class="flex justify-between items-center mb-5 text-gray-500">
