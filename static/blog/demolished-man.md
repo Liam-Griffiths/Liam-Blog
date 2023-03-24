@@ -1,12 +1,12 @@
 ---
 title: The Demolished Man - Alfred Bester
-description: Deserved to be thought of as a classic.
+description: A Classic Worth Reading
 date: '2023-01-01'
 image: demoman.jpg
 category: Audiobooks
 ---
 
-## Deserved to be thought of as a classic.
+## A Classic Worth Reading
 
 ```
 Overall: 5 out of 5 stars
@@ -14,8 +14,16 @@ Performance: 5 out of 5 stars
 Story: 5 out of 5 stars
 ```
 
-The core ideas are exquisitely laid out by Bester, this is as much SF as it is a psychological thriller. Rarely are concepts like telepathy and madness explored well in SF, but both are handled with great skill by the Author, the world he creates is interesting and integral to the story. Wonderful writing throughout, both lead characters of Reich and Powell are distinct, motivated and well executed.
+Alfred Bester's The Demolished Man is a remarkable novel that deserves its status as a classic. The core ideas presented in the book are exquisitely laid out and expertly explored. The story is as much science fiction as it is a psychological thriller, making it a fascinating read.
 
-My only complaint is that the final chapter is a total mess, a long exposition of what was mostly already expertly revealed in the previous chapter. We get to see a rather rushed description of demolition and a happy ending for some of the other characters before the book ends. Honestly it's a very sour note to end an otherwise brilliant book.
+One of the most impressive aspects of the book is the way Bester handles the concepts of telepathy and madness. These ideas are rarely explored well in science fiction, but Bester brings them to life with great skill. The world he creates is also interesting and integral to the story, providing an immersive and engaging experience for readers.
 
-The Stars My Destination is superior but the demolished man delivers. The Performance of Gerard Doyle being excellent here as well, distinct character voices and a natural flow. Recommended.
+The writing in The Demolished Man is wonderful throughout. Both lead characters, Reich and Powell, are distinct, motivated, and well executed. Bester expertly weaves their stories together, creating a compelling narrative that will keep you on the edge of your seat.
+
+However, there are a couple of issues with the book that some readers may find problematic. First, the final chapter is a bit of a letdown. It consists of a long exposition of what was mostly already expertly revealed in the previous chapter. The demolition scene is rather rushed, and the happy ending for some of the other characters feels forced. It's a very sour note to end an otherwise brilliant book.
+
+Second, some readers may find Powell's relationship with Barbara uncomfortable. While the novel was published in 1953, some of the language and actions in this relationship may not sit well with modern readers. Powell's relationship with Barbara is portrayed as innocent and paternal, but some readers may view it as inappropriate or exploitative.
+
+It's important to keep in mind that this was a different time, and cultural attitudes towards relationships were different. However, it's still worth noting that some readers may find this aspect of the book distasteful.
+
+Despite this flaw, The Demolished Man is still an excellent read. While The Stars My Destination may be superior, The Demolished Man delivers on its promises. Gerard Doyle's performance in the audiobook is also excellent, with distinct character voices and a natural flow. Overall, I highly recommend The Demolished Man to anyone interested in science fiction, psychological thrillers, or both.
