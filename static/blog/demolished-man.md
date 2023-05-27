@@ -20,6 +20,10 @@ One of the most impressive aspects of the book is the way Bester handles the con
 
 The writing in The Demolished Man is wonderful throughout. Both lead characters, Reich and Powell, are distinct, motivated, and well executed. Bester expertly weaves their stories together, creating a compelling narrative that will keep you on the edge of your seat.
 
+<div class="rounded shadow-xl bg-indigo-300 overflow-hidden relative mb-4 mt-4" style="height: 30em;">
+    <img class="w-full absolute -top-44 object-cover" src="/images/demoman2.jpg">
+</div>
+
 However, there are a couple of issues with the book that some readers may find problematic. First, the final chapter is a bit of a letdown. It consists of a long exposition of what was mostly already expertly revealed in the previous chapter. The demolition scene is rather rushed, and the happy ending for some of the other characters feels forced. It's a very sour note to end an otherwise brilliant book.
 
 Second, some readers may find Powell's relationship with Barbara uncomfortable. While the novel was published in 1953, some of the language and actions in this relationship may not sit well with modern readers. Powell's relationship with Barbara is portrayed as innocent and paternal, but some readers may view it as inappropriate or exploitative.

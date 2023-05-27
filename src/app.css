@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.proseoverride {
+    max-width: 100% !important;
+}
+.proseoverride > p {
+    max-width: 65ch !important;
+    text-align: justify-all;
+}
+
 blog-image {
     display: block;
     width: 100%;

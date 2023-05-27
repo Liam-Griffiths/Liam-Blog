@@ -38,12 +38,12 @@
                 <h1 class=" text-3xl font-extrabold leading-tight text-gray-900 lg:text-4xl ">{data.metadata.title}</h1>
                 <p class="mb-4 lg:mb-6 font-extrabold leading-tight text-gray-300 ">{data.metadata.category}</p>
             </header>
-            <div class="rounded shadow-xl bg-indigo-300 h-56 overflow-hidden relative">
+            <div class="rounded shadow-xl bg-indigo-300 h-80 overflow-hidden relative">
                 <img class="w-full absolute -bottom-14 object-cover" src={'/images/' + (data.metadata.image ?? 'default.jpg')}>
             </div>
 
             <hr class="my-2 border-gray-200 sm:mx-auto lg:my-4">
-            <div class="prose mt-5" >
+            <div class="prose mt-5 proseoverride" >
                 <SvelteMarkdown {source} />
             </div>
         </article>
@@ -62,3 +62,8 @@
         <span class="text-sm leading-6 sm:text-center text-white ">© {`${new Date().getFullYear()}`} - <a class="font-semibold leading-6 sm:text-center text-white underline" href="mailto:liam@liam-griffiths.co.uk">me@liam-griffiths.co.uk</a></span>
     </div>
 </footer>
+
+<div class="invisible hidden bottom-20 bottom-0 top-0 -top-20 -bottom-20 bottom-32 -top-32 -top-44">
+    I'm invisible and a stop trees from shaking!
+    Here are any required tailwind classes that are required in the blog markdown.
+</div>
