@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="255c5616-8d50-48c2-8451-661bb119953b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/me2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/refresh.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.svelte-kit/ambient.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.svelte-kit/ambient.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.svelte-kit/generated/server/internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/.svelte-kit/generated/server/internal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/entry/_page.svelte.8aa892bc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/entry/_page.svelte.8aa892bc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/entry/_slug_-page.svelte.bbeaf719.js" beforeDir="false" afterPath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/entry/_slug_-page.svelte.bbeaf719.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/server/entries/pages/_page.svelte.js" beforeDir="false" afterPath="$PROJECT_DIR$/.svelte-kit/output/server/entries/pages/_page.svelte.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/server/entries/pages/_slug_/_page.svelte.js" beforeDir="false" afterPath="$PROJECT_DIR$/.svelte-kit/output/server/entries/pages/_slug_/_page.svelte.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +102,7 @@
       <workItem from="1679353506632" duration="3790000" />
       <workItem from="1679647064779" duration="4506000" />
       <workItem from="1679702218772" duration="1118000" />
-      <workItem from="1706935931334" duration="6364000" />
+      <workItem from="1706935931334" duration="7711000" />
     </task>
     <servers />
   </component>

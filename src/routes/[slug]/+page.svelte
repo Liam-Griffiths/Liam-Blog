@@ -16,7 +16,6 @@
         "Merge Conflict Mediator",
         "Branch Manager",
         "Codebase Cartographer",
-        "Computer Janitor",
         '"Engineer"',
         "Kanban Man",
         "Caffeine Compiler",
@@ -26,7 +25,9 @@
         "Regex Riddler",
         "Jira Janitor",
         "Tech Tinkerer",
-        "Copy Paste Technician"
+        "Copy Paste Technician",
+        "Got That Swagger",
+        "I know how to quit Vim"
     ];
 
     // Reactive variable for the current title
