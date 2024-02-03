@@ -6,6 +6,7 @@
         slug: string;
         post: string;
         metadata: any;
+        twoRandomPosts: any;
     };
     const source = data.post;
 
@@ -110,9 +111,9 @@
     </div>
 </div>
 
-<main class="pt-4 pb-16 lg:pt-8 lg:pb-24 bg-white  min-h-[80vh]">
+<main class="pt-4 pb-16 lg:pt-8 lg:pb-24 bg-white min-h-[80vh]">
     {#if !data.metadata.hide}
-        <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
+        <div class="flex justify-between px-4 mx-auto max-w-screen-xl">
             <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
                 <header class="mb-4 lg:mb-6 not-format">
                     <address class="flex items-center mb-6 not-italic w-100">
@@ -132,7 +133,7 @@
                     <h1 class=" text-3xl font-extrabold leading-tight text-gray-900 lg:text-4xl ">{data.metadata.title}</h1>
                     <p class="mb-4 lg:mb-6 font-extrabold leading-tight text-gray-300 ">{data.metadata.category}</p>
                 </header>
-                <div class="rounded shadow-xl bg-indigo-300 h-56 overflow-hidden relative">
+                <div class="rounded shadow-xl bg-indigo-300 h-96 overflow-hidden relative">
                     <img class="w-full absolute -bottom-14 object-cover" src={'/images/' + (data.metadata.image ?? 'default.jpg')}>
                 </div>
 
@@ -151,6 +152,41 @@
         </div>
     {/if}
 </main>
+
+<section class="bg-[#636363]">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-12 lg:px-6">
+        <div class="grid gap-8 lg:grid-cols-2">
+            {#each data.twoRandomPosts as post}
+                {#if (post && post.meta) && !post.meta.hide}
+                    <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="rounded shadow-xl bg-indigo-300 h-48 overflow-hidden relative">
+                                <img class="w-full h-full absolute top-0 sm:-bottom-14 object-cover" src={'/images/' + (post.meta.image ?? 'default.jpg')}>
+                            </div>
+                            <div>
+                                <div class="flex justify-between items-center mb-5 text-gray-500">
+                          <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded ">
+                              {post.meta.category ?? "Uncategorized"}
+                          </span>
+                                    <span class="text-sm">{new Date(post.meta.date + " 00:00:01").toDateString()}</span>
+                                </div>
+                                <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900"><a href="#">{post.meta.title}</a></h2>
+                                <p class="mb-5 font-light text-gray-500 ">{post.meta.description}</p>
+                                <div class="flex justify-between items-center">
+                                    <a href="/{post.path}" class="inline-flex items-center font-medium text-primary-600 hover:underline">
+                                        Read more
+                                        <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                {/if}
+            {/each}
+        </div>
+    </div>
+</section>
 
 <footer class="bg-[#3d3d3d] flex flex-row h-[10vh]">
     <div class="flex items-center justify-center gap-x-6 w-full h-full">
