@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="255c5616-8d50-48c2-8451-661bb119953b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/blog/the-stars-my-destination.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/me2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/refresh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/ambient.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.svelte-kit/ambient.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/generated/server/internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/.svelte-kit/generated/server/internal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/entry/_page.svelte.8aa892bc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/entry/_page.svelte.8aa892bc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/entry/_slug_-page.svelte.bbeaf719.js" beforeDir="false" afterPath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/entry/_slug_-page.svelte.bbeaf719.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/server/entries/pages/_page.svelte.js" beforeDir="false" afterPath="$PROJECT_DIR$/.svelte-kit/output/server/entries/pages/_page.svelte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/server/entries/pages/_slug_/_page.svelte.js" beforeDir="false" afterPath="$PROJECT_DIR$/.svelte-kit/output/server/entries/pages/_slug_/_page.svelte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,29 +33,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2EbABdLsTUS9U2KMDYgsha0KZ1X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/blog" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/liam/Documents/Projects/Liam-Blog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "ts.external.directory.path": "/Users/liam/Documents/Projects/Liam-Blog/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/blog" />
       <recent name="$PROJECT_DIR$/posts" />
       <recent name="$PROJECT_DIR$/pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -60,6 +82,13 @@
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-fd6de256fdba-JavaScript-WS-241.8102.134" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,7 +110,9 @@
       <workItem from="1675099384990" duration="1156000" />
       <workItem from="1675979301450" duration="201000" />
       <workItem from="1679353506632" duration="3790000" />
-      <workItem from="1679647064779" duration="3760000" />
+      <workItem from="1679647064779" duration="4506000" />
+      <workItem from="1679702218772" duration="1118000" />
+      <workItem from="1706935931334" duration="6364000" />
     </task>
     <servers />
   </component>
@@ -98,7 +129,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

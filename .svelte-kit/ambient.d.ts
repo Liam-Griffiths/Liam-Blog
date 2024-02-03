@@ -26,31 +26,28 @@
  * ```
  */
 declare module '$env/static/private' {
+	export const NVM_INC: string;
 	export const NIX_PROFILES: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
-	export const TERM: string;
+	export const NVM_CD_FLAGS: string;
 	export const SHELL: string;
-	export const npm_config_metrics_registry: string;
+	export const TERM: string;
 	export const TMPDIR: string;
 	export const npm_config_global_prefix: string;
 	export const COLOR: string;
-	export const TERM_SESSION_ID: string;
 	export const npm_config_noproxy: string;
 	export const npm_config_local_prefix: string;
-	export const __INTELLIJ_COMMAND_HISTFILE__: string;
 	export const USER: string;
+	export const NVM_DIR: string;
 	export const LD_LIBRARY_PATH: string;
 	export const COMMAND_MODE: string;
 	export const npm_config_globalconfig: string;
 	export const SSH_AUTH_SOCK: string;
 	export const __CF_USER_TEXT_ENCODING: string;
 	export const npm_execpath: string;
-	export const LOGIN_SHELL: string;
 	export const PATH: string;
-	export const TERMINAL_EMULATOR: string;
 	export const npm_package_json: string;
-	export const _: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_init_module: string;
 	export const __CFBundleIdentifier: string;
@@ -60,6 +57,7 @@ declare module '$env/static/private' {
 	export const npm_lifecycle_event: string;
 	export const EDITOR: string;
 	export const npm_package_name: string;
+	export const npm_config_npm_version: string;
 	export const XPC_FLAGS: string;
 	export const NIX_SSL_CERT_FILE: string;
 	export const npm_config_node_gyp: string;
@@ -67,14 +65,17 @@ declare module '$env/static/private' {
 	export const XPC_SERVICE_NAME: string;
 	export const SHLVL: string;
 	export const HOME: string;
+	export const IDEA_INITIAL_DIRECTORY: string;
 	export const npm_config_cache: string;
 	export const LOGNAME: string;
 	export const npm_lifecycle_script: string;
 	export const LC_CTYPE: string;
+	export const NVM_BIN: string;
 	export const PKG_CONFIG_PATH: string;
 	export const npm_config_user_agent: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
+	export const _: string;
 	export const NODE_ENV: string;
 }
 
@@ -105,31 +106,28 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
+		NVM_INC: string;
 		NIX_PROFILES: string;
 		NODE: string;
 		INIT_CWD: string;
-		TERM: string;
+		NVM_CD_FLAGS: string;
 		SHELL: string;
-		npm_config_metrics_registry: string;
+		TERM: string;
 		TMPDIR: string;
 		npm_config_global_prefix: string;
 		COLOR: string;
-		TERM_SESSION_ID: string;
 		npm_config_noproxy: string;
 		npm_config_local_prefix: string;
-		__INTELLIJ_COMMAND_HISTFILE__: string;
 		USER: string;
+		NVM_DIR: string;
 		LD_LIBRARY_PATH: string;
 		COMMAND_MODE: string;
 		npm_config_globalconfig: string;
 		SSH_AUTH_SOCK: string;
 		__CF_USER_TEXT_ENCODING: string;
 		npm_execpath: string;
-		LOGIN_SHELL: string;
 		PATH: string;
-		TERMINAL_EMULATOR: string;
 		npm_package_json: string;
-		_: string;
 		npm_config_userconfig: string;
 		npm_config_init_module: string;
 		__CFBundleIdentifier: string;
@@ -139,6 +137,7 @@ declare module '$env/dynamic/private' {
 		npm_lifecycle_event: string;
 		EDITOR: string;
 		npm_package_name: string;
+		npm_config_npm_version: string;
 		XPC_FLAGS: string;
 		NIX_SSL_CERT_FILE: string;
 		npm_config_node_gyp: string;
@@ -146,14 +145,17 @@ declare module '$env/dynamic/private' {
 		XPC_SERVICE_NAME: string;
 		SHLVL: string;
 		HOME: string;
+		IDEA_INITIAL_DIRECTORY: string;
 		npm_config_cache: string;
 		LOGNAME: string;
 		npm_lifecycle_script: string;
 		LC_CTYPE: string;
+		NVM_BIN: string;
 		PKG_CONFIG_PATH: string;
 		npm_config_user_agent: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;
+		_: string;
 		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: string]: string | undefined;
