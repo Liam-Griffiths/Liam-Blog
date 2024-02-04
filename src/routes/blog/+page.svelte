@@ -49,7 +49,7 @@
                           </span>
                             <span class="text-sm">{new Date(post.meta.date + " 00:00:01").toDateString()}</span>
                         </div>
-                        <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900"><a href="#">{post.meta.title}</a></h2>
+                        <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900"><a href="/{post.path}">{post.meta.title}</a></h2>
                         <p class="mb-5 font-light text-gray-500 ">{post.meta.description}</p>
                         <div class="flex justify-between items-center">
                             <a href="/{post.path}" class="inline-flex items-center font-medium text-primary-600 hover:underline">
@@ -66,6 +66,17 @@
         </div>
     </div>
 </section>
+
+<div class="flex flex-row">
+    <div class="relative basis-full flex flex-col justify-center overflow-hidden bg-[#282828] min-h-[10vh]">
+        <div class="flex items-center justify-center md:gap-x-6 gap-x-2 h-full">
+            <a href="/" class="rounded-md bg-indigo-600 sm:p-1 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Home</a>
+            <a href="/experience" class="rounded-md bg-indigo-600 sm:p-1 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Experience</a>
+            <a href="https://www.linkedin.com/in/liam-g-829103100" target="_blank" class="rounded-md bg-indigo-600 sm:p-1 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">LinkedIn</a>
+            <a href="https://github.com/Liam-Griffiths" target="_blank" class="rounded-md bg-indigo-600 px-3.5 sm:p-1 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Github</a>
+        </div>
+    </div>
+</div>
 
 <footer class="bg-[#3d3d3d] flex flex-row h-[10vh]">
     <div class="flex items-center justify-center gap-x-6 w-full h-full">
