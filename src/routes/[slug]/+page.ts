@@ -2,6 +2,7 @@ import { marked } from 'marked';
 import parseMD from 'parse-md';
 
 export async function load({ fetch, params, url }) {
+    console.log("hi")
     const slug = params['slug'];
     const res = await fetch(`/blog/${slug}.md`);
     const post = await res.text();
@@ -26,7 +27,15 @@ export async function load({ fetch, params, url }) {
         })
     )
 
-    allPosts = allPosts.filter(post => !post.meta.hide);
+    console.log("one", allPosts);
+
+    allPosts = allPosts.filter(post => {
+        if (post.path === slug) return false;
+        if (post.meta.hide) return false;
+        return true;
+    });
+
+    console.log("two", allPosts);
 
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
@@ -40,7 +49,6 @@ export async function load({ fetch, params, url }) {
 
     // Slice the first two elements to get two random posts
     const twoRandomPosts = allPosts.slice(0, 2);
-
 
     const { metadata, content } = parseMD(post)
 

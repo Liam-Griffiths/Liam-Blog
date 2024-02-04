@@ -8,6 +8,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/[slug]/+page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/[slug]/+page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/childhoods-end.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/blog/childhoods-end.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/demolished-man.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/blog/demolished-man.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/fall-of-moondust.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/blog/fall-of-moondust.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/project-hail-mary.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/blog/project-hail-mary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/rendezvous-with-rama.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/blog/rendezvous-with-rama.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/roadkill.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/blog/roadkill.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/the-stars-my-destination.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/blog/the-stars-my-destination.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/yahtzee-croshaw.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/blog/yahtzee-croshaw.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +112,7 @@
       <workItem from="1679353506632" duration="3790000" />
       <workItem from="1679647064779" duration="4506000" />
       <workItem from="1679702218772" duration="1118000" />
-      <workItem from="1706935931334" duration="12949000" />
+      <workItem from="1706935931334" duration="20699000" />
     </task>
     <servers />
   </component>

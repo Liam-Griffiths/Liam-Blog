@@ -2,13 +2,17 @@
     import SvelteMarkdown from 'svelte-markdown';
     import {onMount} from 'svelte';
 
+    console.log("hi");
+
     export let data: {
         slug: string;
         post: string;
         metadata: any;
         twoRandomPosts: any;
     };
-    const source = data.post;
+
+    $: source = data.post;
+    $: randomPosts = data.twoRandomPosts;
 
     // Step 1: Define the array of humorous job titles
     const titles = [
@@ -17,7 +21,6 @@
         "Merge Conflict Mediator",
         "Branch Manager",
         "Codebase Cartographer",
-        '"Engineer"',
         "Kanban Man",
         "Caffeine Compiler",
         "Rubber Duck Debugger",
@@ -110,8 +113,9 @@
         </div>
     </div>
 </div>
-
+{#key source}
 <main class="pt-4 pb-16 lg:pt-8 lg:pb-24 bg-white min-h-[80vh]">
+
     {#if !data.metadata.hide}
         <div class="flex justify-between px-4 mx-auto max-w-screen-xl">
             <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
@@ -151,12 +155,13 @@
             </article>
         </div>
     {/if}
-</main>
 
+</main>
+{/key}
 <section class="bg-[#636363]">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-12 lg:px-6">
         <div class="grid gap-8 lg:grid-cols-2">
-            {#each data.twoRandomPosts as post}
+            {#each randomPosts as post}
                 {#if (post && post.meta) && !post.meta.hide}
                     <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md">
                         <div class="grid md:grid-cols-2 gap-6">

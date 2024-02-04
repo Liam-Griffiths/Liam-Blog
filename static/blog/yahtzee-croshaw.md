@@ -27,4 +27,10 @@ testing
     <img class="w-full absolute -bottom-14 object-cover" src="/images/deda.jpg">
 </div>
 
+```
+Overall: 5 out of 5 stars
+Performance: 5 out of 5 stars
+Story: 5 out of 5 stars
+```
+
 testing
