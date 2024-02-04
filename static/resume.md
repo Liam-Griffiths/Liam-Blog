@@ -21,6 +21,10 @@ E-Mail: `me@liam-griffiths.co.uk`
 
 ## Experience
 
+**April 2023 to Present  
+Ground.News, Ontario, Canada  
+Software Engineer**
+
 **April 2021 to December 2022  
 Mojo Mortgages Manchester (Remote), UK  
 Senior Software Engineer**

@@ -24,7 +24,7 @@
             <a href="/blog" class="text-sm font-semibold leading-6 text-white hover:underline">Posts <span aria-hidden="true">→</span></a>
         </div>
         {#if show}
-        <div use:reveal={{ transition: "fly" }} class=" mx-4 relative bg-[#3500d3] sm:landscape:p-2 sm:landscape:mb-2 px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg rounded-none sm:px-10 shadow-solid-black">
+        <div x class=" mx-4 relative bg-[#3500d3] sm:landscape:p-2 sm:landscape:mb-2 px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg rounded-none sm:px-10 shadow-solid-black">
             <div class="space-y-4 py-1 text-base leading-7 sm:landscape:space-y-2 sm:landscape:leading-3 sm:mx-4">
                 <article class="prose lg:prose-xl text-white sm:landscape:prose-md">
                     <div class="text-center items-center md:m-4">

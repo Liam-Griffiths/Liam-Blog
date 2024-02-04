@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="255c5616-8d50-48c2-8451-661bb119953b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/blog/project-hail-mary.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/blog/project-hail-mary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/experience/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/experience/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,7 @@
       <workItem from="1679353506632" duration="3790000" />
       <workItem from="1679647064779" duration="4506000" />
       <workItem from="1679702218772" duration="1118000" />
-      <workItem from="1706935931334" duration="22498000" />
+      <workItem from="1706935931334" duration="22768000" />
     </task>
     <servers />
   </component>
