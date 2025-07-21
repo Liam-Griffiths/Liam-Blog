@@ -64,7 +64,3 @@ yarn start
 ## Deployment
 
 This project is configured for deployment on Netlify, indicated by the `netlify.toml` file.
-
-## License
-
-(Optional: Add your license information here, e.g., MIT License)
