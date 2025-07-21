@@ -1,1 +1,0 @@
-import"./marked.esm.0b02a870.js";import{p as n}from"./index.f401fe28.js";async function l({fetch:o,params:e,url:c}){const t=e.slug,a=await(await o(`/blog/${t}.md`)).text(),{metadata:s,content:r}=n(a);return{slug:t,metadata:s,post:r}}const g=Object.freeze(Object.defineProperty({__proto__:null,load:l},Symbol.toStringTag,{value:"Module"}));export{g as _,l};

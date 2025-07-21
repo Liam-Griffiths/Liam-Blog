@@ -1,1 +1,0 @@
-import"./marked.esm.0b02a870.js";import{p as r}from"./index.f401fe28.js";async function a({fetch:t,params:s,url:n}){const e=await(await t("/resume.md")).text(),{content:o}=r(e);return{post:o}}const i=Object.freeze(Object.defineProperty({__proto__:null,load:a},Symbol.toStringTag,{value:"Module"}));export{i as _,a as l};
