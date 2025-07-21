@@ -1,5 +1,7 @@
 
-import { getAllPostIds, getPostData, getPostsByCategory, getSortedPostsData } from '@/lib/posts';
+import { getPostData, getSortedPostsData, getAllPostIds, getPostsByCategory } from '@/lib/posts';
+import getFormattedDate from '@/lib/getFormattedDate';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -20,10 +22,10 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
 
   return {
     title: postData.title,
-    description: postData.description || postData.snippet,
+    description: postData.description,
     openGraph: {
       title: postData.title,
-      description: postData.description || postData.snippet,
+      description: postData.description,
       url: `https://liam-griffiths.co.uk/posts/${postData.id}`,
       type: "article",
       images: postData.image ? [
@@ -36,7 +38,7 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
     twitter: {
       card: "summary_large_image",
       title: postData.title,
-      description: postData.description || postData.snippet,
+      description: postData.description,
       images: postData.image ? [postData.image.startsWith('http') ? postData.image : `https://liam-griffiths.co.uk/images/${postData.image}`] : [],
     },
   };

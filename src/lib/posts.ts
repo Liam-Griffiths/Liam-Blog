@@ -34,6 +34,7 @@ interface PostData {
   link?: string; // For Substack posts
   content?: string; // Full content for Substack posts
   description?: string; // Description for Substack posts
+  hide?: boolean; // Add hide property
 }
 
 async function getSubstackPosts(): Promise<PostData[]> {
@@ -73,14 +74,17 @@ function cleanHtmlContent(htmlContent: string): string {
   // Remove all attributes except 'src' for images and 'href' for links
   $('*').each((index, element) => {
     const $el = $(element);
-    const tagName = $el.prop('tagName').toLowerCase();
+    const tagName = $el.prop('tagName');
+    const lowerCaseTagName = tagName ? tagName.toLowerCase() : '';
 
-    if (!allowedTags.includes(tagName)) {
+    if (!lowerCaseTagName) return; // Skip if tagName is undefined or empty
+
+    if (!allowedTags.includes(lowerCaseTagName)) {
       $el.replaceWith($el.contents()); // Unwrap disallowed tags
     } else {
       const attributesToRemove = Object.keys($el.attr() || {}).filter(attr => {
-        if (tagName === 'img' && attr === 'src') return false;
-        if (tagName === 'a' && attr === 'href') return false;
+        if (lowerCaseTagName === 'img' && attr === 'src') return false;
+        if (lowerCaseTagName === 'a' && attr === 'href') return false;
         return true;
       });
       attributesToRemove.forEach(attr => $el.removeAttr(attr));
@@ -151,10 +155,12 @@ export async function getPostData(id: string) {
       .process(matterResult.content);
     const contentHtml = processedContent.toString();
 
+    const description = contentHtml.substring(0, 150) + '...'; // Generate snippet from contentHtml
     return {
       id,
       contentHtml,
       source: 'local',
+      description, // Add description
       ...(matterResult.data as { date: string; title: string; image?: string; category?: string }),
     };
   } else {

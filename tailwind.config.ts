@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import type { PluginUtils } from 'tailwindcss/types/config';
 
 const config: Config = {
   darkMode: 'class',
@@ -13,9 +14,7 @@ const config: Config = {
         'angled-left-down': '-4px 4px 0px 0px rgba(0, 0, 0, 0.75)',
         'hero-shadow': '-22px 22px 0px 0px rgba(0, 0, 0, 0.75)',
       },
-      typography: ({
-        theme
-      }) => ({
+      typography: ({ theme }: PluginUtils) => ({
         DEFAULT: {
           css: {
             color: theme('colors.gray.800'),
