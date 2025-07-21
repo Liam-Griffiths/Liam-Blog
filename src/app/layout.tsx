@@ -46,10 +46,17 @@ export default function RootLayout({
       <body>
         <ThemeProvider>
           <div className={`${inter.className} min-h-screen flex flex-col bg-white text-gray-900 dark:bg-gray-900 dark:text-white`}>
-            <ThemeToggle />
+            {/* Desktop ThemeToggle */}
+            <div className="hidden md:block fixed top-4 left-4 z-50">
+              <ThemeToggle />
+            </div>
             <main className="flex-grow flex flex-col items-center justify-center">
               {children}
             </main>
+            {/* Mobile ThemeToggle */}
+            <div className="md:hidden w-full flex justify-center py-4">
+              <ThemeToggle />
+            </div>
             <footer className="w-full bg-gray-800 text-gray-400 text-center py-4 mt-auto dark:bg-gray-800 dark:text-gray-400 bg-gray-200 text-gray-600">
               <p>{new Date().getFullYear()} Liam Griffiths</p>
             </footer>
