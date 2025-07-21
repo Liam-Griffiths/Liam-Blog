@@ -1,6 +1,6 @@
 # Liam's Blog
 
-A simple straaight forward personal blog built with Next.js, featuring markdown-based content and a clean, modern design.
+A simple straight forward personal blog built with Next.js, featuring markdown-based content and a clean, modern design.
 
 ## Description
 
@@ -64,7 +64,3 @@ yarn start
 ## Deployment
 
 This project is configured for deployment on Netlify, indicated by the `netlify.toml` file.
-
-## License
-
-(Optional: Add your license information here, e.g., MIT License)
