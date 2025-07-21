@@ -81,15 +81,18 @@ export default async function Post({ params }: { params: { id: string } }) {
               {new Date(postData.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
             </div>
             {postData.source === 'substack' ? (
-              <div className="relative overflow-hidden max-h-full">
-                <div dangerouslySetInnerHTML={{ __html: postData.contentHtml.substring(0, Math.floor(postData.contentHtml.length * 0.33)) + '...' }} />
-                <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-white to-transparent dark:from-gray-900"></div>
+              <div className="relative overflow-hidden max-h-full pb-8">
+                {/* Mobile view: 20% */}
+                <div className="block sm:hidden" dangerouslySetInnerHTML={{ __html: postData.contentHtml.substring(0, Math.floor(postData.contentHtml.length * 0.2)) + '...' }} />
+                {/* Desktop view: 40% */}
+                <div className="hidden sm:block" dangerouslySetInnerHTML={{ __html: postData.contentHtml.substring(0, Math.floor(postData.contentHtml.length * 0.4)) + '...' }} />
+                <div className="absolute bottom-0 left-0 w-full h-96 bg-gradient-to-t from-white to-transparent dark:from-gray-900"></div>
               </div>
             ) : (
               <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             )}
             {postData.source === 'substack' && postData.link && (
-              <div className="mt-12 mb-24 text-center">
+              <div className="mt-8 mb-12 text-center">
                 <a href={postData.link} target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-600 text-gray-900 dark:text-white font-bold py-4 px-8 rounded-full text-xl transition duration-300 ease-in-out">
                   Read the rest on my Substack
                 </a>
