@@ -1,6 +1,6 @@
 # Liam's Blog
 
-A simple straaight forward personal blog built with Next.js, featuring markdown-based content and a clean, modern design.
+A simple straight forward personal blog built with Next.js, featuring markdown-based content and a clean, modern design.
 
 ## Description
 
