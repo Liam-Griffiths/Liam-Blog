@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from '../context/ThemeContext';
 import ThemeToggle from '../components/ThemeToggle';
+import Analytics from "@/components/Analytics";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -44,6 +46,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Suspense fallback={null}>
+          <Analytics />
+        </Suspense>
         <ThemeProvider>
           <div className={`${inter.className} min-h-screen flex flex-col bg-white text-gray-900 dark:bg-gray-900 dark:text-white`}>
             {/* Desktop ThemeToggle */}
