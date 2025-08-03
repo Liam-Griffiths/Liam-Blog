@@ -6,6 +6,7 @@ export default async function Home() {
 
   return (
     <>
+    {/* Hero Section Start */}
       <div className="relative basis-full flex flex-col justify-center h-auto sm:mt-16 dark:bg-[#3500d3]">
         <div className="relative sm:landscape:p-2 pt-10 pb-8 ring-4 dark:ring-1 ring-black dark:ring-gray-500 sm:mx-auto sm:max-w-lg rounded-none sm:px-10 hero-shadow">
           <div className="space-y-4 py-1 text-base leading-7 sm:landscape:space-y-2 sm:landscape:leading-3 sm:mx-4">
@@ -26,6 +27,7 @@ export default async function Home() {
           </div>
         </div>
       </div>
+    {/* Hero Section End */}
       <hr className="hidden sm:block border-gray-700 my-8 w-[90%] mx-auto" />
       <PostList allPostsData={allPostsData} />
     </>
