@@ -1,6 +1,6 @@
 ---
 title: Flybot - Dennis E. Taylor
-description: Messy but full of ideas
+description: A messy effort but full of ideas as always.
 date: '2025-08-05'
 image: flybot.jpg
 category: Audiobooks
