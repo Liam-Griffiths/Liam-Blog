@@ -42,7 +42,7 @@ export default function PostList({ allPostsData }: PostListProps) {
       <div className="md:w-3/4 md:pr-8">
         <ul>
           {currentPosts.map(({ id, date, title, image, snippet, category }) => (
-            <li key={id} className="mb-4 p-4 border border-gray-700 rounded-lg flex flex-col md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-4">
+            <li key={id} className="mb-4 p-4 border border-gray-700 rounded-lg flex flex-row items-start space-x-4">
               {image ? (
                 <div className="relative w-32 h-32 rounded-md flex-none">
                   <Image src={image.startsWith('http') ? image : `/images/${image}`} alt={title} fill className="object-cover rounded-md" />
