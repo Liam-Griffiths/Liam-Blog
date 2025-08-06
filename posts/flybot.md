@@ -7,9 +7,9 @@ category: Audiobooks
 ---
 
 ```
-Overall: 4 out of 5 stars
-Performance: 5 out of 5 stars
-Story: 4 out of 5 stars
+Overall: 3 out of 5 stars
+Performance: 4 out of 5 stars
+Story: 3 out of 5 stars
 ```
 
 I feel I'm going to have to come to terms with that outside of the Bobiverse series Dennis's characters just don't work for me. I'll start with what I liked: Plenty of interesting thoughts on the future of AI and what it means once we have true AGI in existence. People getting around in self driving taxis, robotic deliveries, advanced smart homes to name a few of the ideas. I enjoyed the back and forth conversations between one of the protagonists and the AGI, it seems like this is the part of the book Dennis was most interested in writing.
